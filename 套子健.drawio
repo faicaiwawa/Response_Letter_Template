@@ -1,9 +1,152 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T04:17:27.373Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" version="24.2.8" etag="ovm9oatC6zOtqDGbFrT7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-25T06:35:54.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="Sa_A7y60A1temZ6HgD96" version="24.2.8" type="github">
   <diagram name="第 1 页" id="twCJVO7XW5ijM1dFtnB7">
-    <mxGraphModel>
+    <mxGraphModel dx="1043" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF3333;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="255" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-1" value="库存List" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="310" as="sourcePoint" />
+            <mxPoint x="170" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-4" value="isSKU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-5" value="has番号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="295" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-6" value="hasBom" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-8" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="254" y="255" as="sourcePoint" />
+            <mxPoint x="324" y="255" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-9" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="254" y="290" as="sourcePoint" />
+            <mxPoint x="324" y="290" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-10" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="254" y="330" as="sourcePoint" />
+            <mxPoint x="324" y="330" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-11" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="254" y="362" as="sourcePoint" />
+            <mxPoint x="324" y="362" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-12" value="List1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="236" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-13" value="List2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="275" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-14" value="List3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="317" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-15" value="List4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="355" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-17" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="400" y="252.6" as="sourcePoint" />
+            <mxPoint x="470" y="252.6" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-18" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="400" y="287.6" as="sourcePoint" />
+            <mxPoint x="470" y="287.6" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-19" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="400" y="327.6" as="sourcePoint" />
+            <mxPoint x="470" y="327.6" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-20" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="400" y="362.6" as="sourcePoint" />
+            <mxPoint x="470" y="362.6" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-21" value="规则1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="220" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-26" value="规则2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="260" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-27" value="规则3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="300" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-28" value="规则4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="335" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-29" value="Map&amp;lt;String库存商品编码，Integer数量&amp;gt; 库存商品情况" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="440" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-30" value="Map&amp;lt;String套件编码，List&amp;lt;Map&amp;gt;组套规则&amp;gt; 总组套规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="520" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-31" value="List&amp;lt;Map&amp;lt;String子件编码，所需数量Integer&amp;gt;&amp;gt; 每个套件的组套规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="480" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-32" value="Map&amp;lt;String套件编码，Integer套件数量&amp;gt; 组套的套件结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="560" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-35" value="for each 总组套规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="660" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-43" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="631" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-45" value="库存情况中命中规则的对应属数量扣减" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="611" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-46" value="组套的套件结果增加" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="222" y="710" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="286" y="655" as="sourcePoint" />
+            <mxPoint x="286" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-48" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="352" y="681" as="sourcePoint" />
+            <mxPoint x="400" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-49" value="库存商品情况：未配对子件情况" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="640" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EkPGYTTj-NT59Nam8rsy-50" value="组套的套件结果：组合完成的套件情况" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="690" width="220" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
