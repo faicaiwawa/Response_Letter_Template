@@ -1,1 +1,1 @@
-![图片1](fig1.png)
+![图片1](example.png)
