@@ -6,6 +6,8 @@
 \usepackage{mathrsfs}
 \usepackage{svg}
 \usepackage{xr}
+\usepackage{setspace}  % 在导言区加载setspace包
+\usepackage{colortbl}
 \usepackage{amsthm,cite,url,graphicx,booktabs,lipsum,color,bm,caption,subcaption,soul}
 \usepackage{pifont,tikz,paralist,multirow,amssymb}
 \usepackage{xifthen}
@@ -13,6 +15,9 @@
 \usepackage{titlesec}
 \usepackage{tcolorbox}
 \usepackage{siunitx}
+
+% 自定义缩进长度
+
 \usepackage{textcomp}
 \usepackage{rotating}
 \usepackage{stfloats}
@@ -32,7 +37,7 @@
 \usepackage{algpseudocode}%
 \usepackage{array}
 \usepackage{enumitem}
-
+ \setstretch{1.2} 
 \hypersetup{hidelinks,
 	colorlinks=true,
 	allcolors=black,
@@ -47,6 +52,7 @@
 \setcounter{reviewer}{0}
 \newcounter{point}[reviewer]
 \setcounter{point}{0}
+\usepackage{diagbox}
 
 \newcounter{editor}
 \setcounter{editor}{0}
@@ -57,7 +63,7 @@
 %\renewcommand{\thepoint}{C\,\thereviewer.\arabic{point}}
 
 \renewcommand{\thepoint}{Comment\,\thereviewer.\arabic{point}}
-\renewcommand{\thepointed}{Comment\,\arabic{pointed}}
+\renewcommand{\thepointed}{Concern\,\arabic{pointed}}
 
 
 % command declarations for reviewer points and our responses
@@ -104,7 +110,7 @@
 
 %% with box
 \newenvironment{reply}[1]
-{
+{ \setstretch{1.2} 
    \begin{tcolorbox}[colback=gray!10, colframe=black, width=\linewidth, arc=1.2mm, auto outer arc, boxrule=0.3pt]
    \textcolor{blue}{\textbf{Reply}:}#1
    \end{tcolorbox}
@@ -121,7 +127,7 @@
 }
 
 \newenvironment{replyno}[1]
-{
+{    \setstretch{1.2} 
    \begin{tcolorbox}[colback=gray!10, colframe=black, width=\linewidth, arc=1.2mm, auto outer arc, boxrule=0.3pt]
    #1
    \end{tcolorbox}
@@ -167,50 +173,41 @@
 
 \begin{document}
 \begin{center}
-\textbf{{\fontsize{14}{20}\selectfont Response Letter to  IEEE Transactions on Circuits and Systems for Video Technology Submission}}
+\textbf{{\fontsize{14}{20}\selectfont The Response Letter to  IEEE Transactions on Industrial Informatics}}
 \end{center}
-\textbf{Manuscript ID:} \ \ \  \\
-\textbf{Title:} 
+\textbf{Manuscript ID: } \ \ \  \\
+\textbf{Title: } 
 \vspace{10pt}
 
-We greatly appreciate the time and effort you have invested in reviewing our work. For this manuscript revision, we provide three documents: Revised Manuscript, Revised Manuscript with Marked Changes, and Response Letter. In the Revised Manuscript with Marked Changes, we use \textcolor[rgb]{0,0,1}{blue} font to mark the changes.
 
-In the following sections, we address each of the concerns raised by the editor and reviewers and describe the revisions we have made accordingly. In order to facilitate the reviewers' examination, substantial changes made in the revised version of the manuscript have been indicated below the corresponding comment.
+
+We sincerely appreciate the time and effort you have dedicated to reviewing our work. For this manuscript revision, we have included three documents: the Revised Manuscript, the Revised Manuscript with Marked Changes(changes are highlighted in \textcolor[rgb]{0.5,0,0} {dark red} font), and the Response Letter. 
+
+In the sections below, we address each of the concerns raised by the editor and reviewers, detailing the revisions made in response. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ~\\
 \horizontalline
 \section*{Response to the editor}
+
 Thank you for carefully reviewing and editing our article. We greatly appreciate your patience and attention to detail throughout the editing process.
 
-\begin{pointed}
-what are 
-\end{pointed}
 
-
-
-\begin{reply}
-{ 
-
-}
-\end{reply}
 
 \begin{pointed}
-what is 
+This paper needs some clarification raised from reviewer 2. 
+
+
 \end{pointed}
 
 
 \begin{reply}
 {
+We thank the editor for their effort in reviewing the manuscript. We have addressed the  reviewer 2's questions in the following response.
 
-
-}
+} 
 \end{reply}
-
-
-
-
 
 
 
@@ -220,29 +217,26 @@ what is
 
 
 \reviewersection
-We would like to express our sincere gratitude to Reviewer 1 for reviewing our manuscript and providing valuable feedback.
-
-\begin{point}
-what is 
-\end{point}
-\begin{reply}
-{
+We would like to express our sincere gratitude to Reviewer 1 for reviewing our manuscript.
 
 
-}
-\end{reply}
-\horizontalline
+
 \reviewersection
-We would like to express our sincere gratitude to Reviewer 1 for reviewing our manuscript and providing valuable feedback.
+We would like to express our sincere gratitude to Reviewer 2 for reviewing our manuscript and providing valuable feedback.
 
 \begin{point}
-what is 
+TABLE V is .....................
 \end{point}
+
 \begin{reply}
-{
+{ Thank you for your question. We understand that your comment contains two inquiries:.............
+
 
 
 }
+
+
+
 \end{reply}
 
 
@@ -305,9 +299,7 @@ what is
 
 
 
-~\\
-~\\
-\horizontalline
-\bibliographystyle{IEEEtran}
-\bibliography{IEEEabrv, reference.bib}
+
+
+
 \end{document}
